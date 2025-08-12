@@ -1,0 +1,139 @@
+/*hero section start */
+
+#hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(40%);
+}
+
+#hero_content {
+    position: absolute;
+}
+
+#hero_content h1 {
+    color: #fff;
+    font-size: 3.8rem;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#hero_content h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: cursive;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.search-icon {
+    height: 40px;
+    width: 340px;
+    display: flex;
+    background: #f2f2f2;
+    border-radius: 5px;
+    list-style: none;
+    margin-left: 90px;
+}
+
+.search-icon .icon:hover {
+    background: #6e6e6e;
+}
+
+.search-icon input {
+    height: 100%;
+    width: 300px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    color: #000;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-icon .icon {
+    height: 95%;
+    width: 40px;
+    margin-left: auto;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-icon .icon span {
+    color: #222222;
+    font-size: 18px;
+}
+
+/*hero section end */
+#header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 30px;
+    line-height: 70px;
+    }
+    #navbar{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(0, 0, 0, 0.5);
+    }
+    #navbar h1{
+    color: orange;
+    font-size: 2.8rem;
+    text-shadow: 2px 2px 2px #000;
+    font-family: cursive;
+    }
+    #navbar ul{
+    display: flex;
+    }
+    #navbar ul li{
+    list-style-type: none;
+    padding: 0 15px 0 15px;
+    }
+    #navbar ul li:hover, #phone a:hover, #mobile_menu ul li:hover{
+    background: navy;
+    cursor: pointer;
+    }
+    #navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.1rem;
+    }
+    #mobile_menu{
+    display: none;
+    height: 43px;
+    line-height: 40px;
+    background-color: magenta;
+    }
+    #mobile_menu ul{
+    display: flex;
+    justify-content: center;
+    }
+    #mobile_menu ul li{
+    list-style: none;
+    padding: 0 5px 0 5px;
+    }
+    #mobile_menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    }
