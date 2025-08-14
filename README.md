@@ -87,6 +87,7 @@ This is a **responsive food and services website** built using **HTML and CSS**.
 ## Technologies Used
 - HTML5
 - CSS3 (Flexbox, Media Queries)
+- Javascript
 - Fonts: Poppins, Cursive
 - Responsive design techniques
 
