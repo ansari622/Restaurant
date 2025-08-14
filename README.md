@@ -83,10 +83,6 @@ This is a **responsive food and services website** built using **HTML and CSS**.
 
 ---
 
-## Folder Structure
-
-
----
 
 ## Technologies Used
 - HTML5
